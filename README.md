@@ -26,3 +26,12 @@ Hardware used (lazy mode from SparkFun):
 
 [Ascaso 'tech dossier' for Steel wiring diagram](https://ascaso-usa.com/pages/tech-dossier)
 
+## Log:
+Removing the top of the case is just 2 hex screws in the rear. It's attached by wires for grounding + the cup heater. There is enough length to set it aside.
+
+### Splice on coffee switch:
+I wanted this to be fully reversable. Although the crimps are.....bad (couldn't find my crimp tool), basic 1/4" flag quick disconnects fit the switches, and with some blades made for the other end of the splice, the switch works as normal.
+![splice](https://github.com/GustavMauler/decentweight/assets/3944964/1d3c2da2-0ba9-4d41-a4ae-9f5fdd2effba)
+
+### Wires from splice out rear vent (20AWG silicone insulated fit super easily):
+![wire-exit](https://github.com/GustavMauler/decentweight/assets/3944964/88afc369-c6cc-43e2-8b25-43891f3c2af1)
