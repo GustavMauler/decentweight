@@ -17,6 +17,8 @@ If we want, we can put in an offset to account for overshoot.
 
 Hardware used (lazy mode from SparkFun):
 * [SparkFun RedBoard Artemis](https://www.sparkfun.com/products/15444)
+  * I'm pretty sure any qwiic + ble board would work. The nano version of this seems promising, but untested. [Aretmis Nano](https://www.sparkfun.com/products/15443)
+  * Obviously you could do something similar without qwiic if you want to run your own i2c etc.
 * [SparkFun Qwiic Alphanumeric Display](https://www.sparkfun.com/products/18565)
 * [SparkFun Qwiic Twist - RGB Rotary Encoder Breakout](https://www.sparkfun.com/products/15083)
 * [SparkFun Qwiic Single Relay](https://www.sparkfun.com/products/15093)
@@ -37,3 +39,7 @@ I wanted this to be fully reversable. Although the crimps are.....bad (couldn't 
 ### Wires from splice out rear vent
 (20AWG silicone insulated fit super easily):
 ![wire-exit](https://github.com/GustavMauler/decentweight/assets/3944964/88afc369-c6cc-43e2-8b25-43891f3c2af1)
+
+### Initial test setup
+Pile O Parts on top of an otherwise closed machine
+![init-test](https://github.com/GustavMauler/decentweight/assets/3944964/89fcc2cb-7470-4695-9c7f-f8e577767fba)
