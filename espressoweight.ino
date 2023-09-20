@@ -136,18 +136,15 @@ void connectedLoop(BLEDevice scale){
           byte wVal[16];
           weight.readValue(&wVal,16);
 
-          //since they send us altered vs equal, let's filter to lower spamminess
-          if(wVal[1] == 0xCA){
-            const short curWeight = (wVal[2]<<8) | (wVal[3] & 0xff);
-            Serial.print(curWeight/10.0);
-            Serial.println("g");
-            
-            if (curWeight > (grams - GRAMS_EPSILON) * 10 ){
-              Serial.println("OK STOP");
-              relay.turnRelayOff(); 
-              twist.setColor(255,255,255);
-              brewing=false;
-            }
+          const short curWeight = (wVal[2]<<8) | (wVal[3] & 0xff);
+          Serial.print(curWeight/10.0);
+          Serial.println("g");
+          
+          if (curWeight > (grams - GRAMS_EPSILON) * 10 ){
+            Serial.println("OK STOP");
+            relay.turnRelayOff(); 
+            twist.setColor(255,255,255);
+            brewing=false;
           }
         }
     }
